@@ -1,4 +1,4 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
@@ -14,13 +14,13 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 LAlt & Space::Send ^{ESC}   
 
 ; Disable Caps Lock key
-Capslock::return
+;Capslock::return
 
 ; Remap Left Win key to Alt
 LWin::Alt
 
 ; Remap Right Alt key to Win
-RAlt::LWin
+; RAlt::LWin
 
 #Persistent ; Keep the script running
 SetKeyDelay, -1 ; Set key delay to minimize delays
